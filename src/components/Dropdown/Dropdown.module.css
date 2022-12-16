@@ -1,0 +1,28 @@
+.dropdownButton {
+  width: 100%;
+  border-radius: 10px;
+  background: #ff6060;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  border: none;
+  display: flex;
+  height: 3rem;
+  color: #f6f6f6;
+}
+
+.dropdownButton img {
+  margin-right: 1rem;
+}
+.dropdownP {
+  padding: 3rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  background: #f7f7f7;
+  margin: 0;
+  line-height: 142.6%;
+  position: sticky;
+  z-index: -1;
+  transform: translatey(-2rem);
+  color: #ff6060;
+}

@@ -1,0 +1,16 @@
+.contactHost {
+  width: 64px;
+  border-radius: 100%;
+}
+.contactName {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #ff6060;
+  margin-top: 1rem;
+}
+.contactName p {
+  width: 46%;
+  line-height: 142.6%;
+  margin: 0 10px 0 0;
+}

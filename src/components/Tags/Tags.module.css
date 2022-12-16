@@ -1,0 +1,14 @@
+.tag {
+  font-size: 14px;
+  font-weight: bold;
+  height: 2rem;
+  color: #ffffff;
+  background: #ff6060;
+  border-radius: 10px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 0;
+  padding: 5px 20px;
+}

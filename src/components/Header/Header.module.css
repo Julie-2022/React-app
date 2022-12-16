@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  padding: 0 2%;
+}
+@media (max-width: 1000px) {
+  .header {
+    padding: 0 1%;
+  }
+}
+
+/******************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 3% 5%;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+}
+nav li {
+  display: block;
+  padding: 0 0 0 5rem;
+}
+li a {
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #ff6060;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.logo {
+  height: 4.25rem;
+  width: 13rem;
+}
+@media (max-width: 767px) {
+  .logo {
+    height: 3.25rem;
+    width: 10rem;
+  }
+  nav li {
+    padding: 0 0 0 1rem;
+  }
+  li a {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 420px) {
+  .logo {
+    height: 3rem;
+    width: 8rem;
+  }
+  nav li {
+    padding: 0 0 0 0.7rem;
+  }
+  li a {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+}
