@@ -1,0 +1,38 @@
+/*--- Dropdown ---*/
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 22px 0;
+}
+.dropdownButton {
+  width: 100%;
+  background: #ff6060;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  display: flex;
+  height: 3rem;
+}
+.dropdownBox {
+  width: 80%;
+  margin: 15px 0;
+}
+@media (max-width: 768px) {
+  .dropdownBox {
+    width: 90%;
+    margin: 10px 15px;
+  }
+}
+
+.dropdownP {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 142.6%;
+  color: #ff6060;
+  padding: 30px 30px 40px 15px;
+  background: #f6f6f6;
+  border-radius: 5px;
+  margin: 0;
+}

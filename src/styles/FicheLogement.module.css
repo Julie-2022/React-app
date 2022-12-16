@@ -1,0 +1,112 @@
+#lodging {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.lodgingCarousel {
+  width: 100%;
+  height: 25rem;
+}
+
+.lodging {
+  width: 90%;
+}
+.lodgingBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lodgingTitle {
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 20px;
+  color: #ff6060;
+  margin: 0;
+}
+.lodgingLocation {
+  color: #ff6060;
+}
+.lodging_left {
+  width: 70%;
+  margin: 40px 0 20px 0;
+}
+.lodgingRight {
+  margin: 30px 0 20px 0;
+  text-align: end;
+  min-width: fit-content;
+}
+@media (max-width: 768px) {
+  .lodgingBox {
+    flex-direction: column;
+  }
+  .lodgingTitle {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .lodgingLeft,
+  .lodgingRight {
+    width: 100%;
+  }
+  .lodgingRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-bottom: 32px;
+    margin: 0;
+  }
+}
+
+.lodgingDiv {
+  height: 100%;
+}
+
+.lodgingImg {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.lodgingLocation {
+  font-size: 18px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+}
+
+.rating img {
+  margin: 25px 0 0 7px;
+}
+/********************************/
+
+.lodgingBoxes {
+  border-radius: 10px;
+  padding: 0 15px 0 15px;
+}
+/**************************************/
+.dropdown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .dropdown {
+    gap: 1.5rem;
+  }
+}
