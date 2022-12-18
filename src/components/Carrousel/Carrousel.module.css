@@ -1,11 +1,11 @@
 .number {
-  color: #ffffff;
+  color: var(--colorwhite);
   display: flex;
   width: 100%;
   justify-content: center;
   height: 90%;
   align-items: flex-end;
-  font-size: 17px;
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -67,23 +67,14 @@
   cursor: pointer;
 }
 .leftArrow {
-  left: 20px;
+  left: 1.25rem;
   z-index: 1;
   width: 5%;
   max-width: 50px;
 }
 .rightArrow {
-  right: 20px;
+  right: 1.25rem;
   z-index: 1;
   width: 5%;
-  max-width: 50px;
+  max-width: 3.125rem;
 }
-
-/* @media (max-width: 768px) {
-  .leftArrow {
-    width: 25px;
-  }
-  .rightArrow {
-    width: 25px;
-  }
-} */

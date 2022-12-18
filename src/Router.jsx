@@ -1,13 +1,11 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom"
-
 import Home from "./pages/Home"
 import About from "./pages/About"
 import FicheLogement from "./pages/FicheLogement"
 import Error from "./pages/Error"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
-//import { useLocation } from "react-router-dom";
 
 function Routing() {
   return (

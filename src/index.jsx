@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Routing from "./Router";
+import "./index.css"
 import { BrowserRouter as Router  } from "react-router-dom";
 
 // ReactDom.render() va chercher "root" ds l'index.html et lui greffe notre appli

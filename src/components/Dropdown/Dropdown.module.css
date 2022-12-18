@@ -1,7 +1,7 @@
 .dropdownButton {
   width: 100%;
   border-radius: 10px;
-  background: #ff6060;
+  background: var(--colorprimary);
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
@@ -9,20 +9,31 @@
   border: none;
   display: flex;
   height: 3rem;
-  color: #f6f6f6;
+  color: var(--colorsecondary);
 }
 
-.dropdownButton img {
+.arrow {
   margin-right: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
 }
+
+.arrow:hover {
+  margin-right: 0.9rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
 .dropdownP {
   padding: 3rem 1rem 1rem 1rem;
   border-radius: 10px;
-  background: #f7f7f7;
+  background: var(--colorsecondary);
   margin: 0;
   line-height: 142.6%;
   position: sticky;
   z-index: -1;
   transform: translatey(-2rem);
-  color: #ff6060;
+  color: var(--colorprimary);
 }

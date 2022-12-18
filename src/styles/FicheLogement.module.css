@@ -22,11 +22,11 @@
   font-weight: 500;
   font-size: 36px;
   padding-top: 20px;
-  color: #ff6060;
+  color: var(--colorprimary);
   margin: 0;
 }
 .lodgingLocation {
-  color: #ff6060;
+  color: var(--colorprimary);
 }
 .lodging_left {
   width: 70%;
@@ -55,7 +55,7 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     width: 100%;
-    padding-bottom: 32px;
+    padding-bottom: 2rem;
     margin: 0;
   }
 }

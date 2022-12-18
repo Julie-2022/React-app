@@ -3,20 +3,20 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #ffffff;
+  background: var(--colorwhite);
 }
 
 .errorP {
   font-size: 2.3rem;
   width: 90%;
-  color: #ff6060;
+  color: var(--colorprimary);
   margin-top: 5rem;
 }
 
 .errorHome {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #ff6060;
+  color: var(--colorprimary);
   margin-top: 8rem;
   margin-bottom: 4rem;
 }

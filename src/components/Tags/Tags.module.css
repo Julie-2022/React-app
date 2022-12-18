@@ -2,8 +2,8 @@
   font-size: 14px;
   font-weight: bold;
   height: 2rem;
-  color: #ffffff;
-  background: #ff6060;
+  color: var(--colorwhite);
+  background: var(--colorprimary);
   border-radius: 10px;
   min-width: 100px;
   display: flex;
