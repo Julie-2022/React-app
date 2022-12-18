@@ -5,7 +5,6 @@ import styles from "./Dropdown.module.css"
 
 export default function DropDown({ txt, title, txtArray }) {
   const [isOpen, setIsOpen] = useState(false)
-
   return isOpen ? (
     <div>
       <button

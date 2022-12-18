@@ -55,12 +55,10 @@ export default function FicheLogement() {
                            <DropDown
                               title={"Description"}
                               txt={product.description}
-                              // style={{minHeight: "265px"}}
                            />
                            <DropDown
                               title={"Équipements"}
                               txtArray={product.equipments}
-                              // style={{minHeight: "265px"}}
                            />
                         </div>
                      </div>

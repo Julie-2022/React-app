@@ -10,7 +10,6 @@
   margin-bottom: 2rem;
   padding: 2rem 0;
 }
-
 .productItem {
   transition: 0.4s;
   display: flex;
@@ -31,14 +30,12 @@
     rgba(0, 0, 0, 0.7) 100%
   );
 }
-
 .productItem img:hover {
   box-shadow: 2px 2px 15px var(--colorsecondary);
   cursor: pointer;
   transform: scale(1.02, 1) translateY(0.1%);
   transition: 0.4s;
 }
-
 .productItem:hover {
   box-shadow: 2px 2px 7px 0px grey;
   cursor: pointer;
@@ -70,7 +67,6 @@
   object-position: center;
   overflow: hidden;
 }
-
 .productTitle {
   color: var(--colorwhite);
   height: 3.125rem;

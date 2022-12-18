@@ -11,13 +11,11 @@
   height: 3rem;
   color: var(--colorsecondary);
 }
-
 .arrow {
   margin-right: 1rem;
   cursor: pointer;
   transition: 0.4s;
 }
-
 .arrow:hover {
   margin-right: 0.9rem;
   width: 1.8rem;
@@ -25,7 +23,6 @@
   cursor: pointer;
   transition: 0.4s;
 }
-
 .dropdownP {
   padding: 3rem 1rem 1rem 1rem;
   border-radius: 10px;

@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import ArrowRight from '../../assets/arrow-right.svg'
 import ArrowLeft from '../../assets/arrow-left.svg'
-
 import styles from "../Carrousel/Carrousel.module.css"
 
 function Carrousel(product) {
