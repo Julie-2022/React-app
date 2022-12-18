@@ -2,7 +2,6 @@
 
 # dependencies
 .DS_Store
-/src/assets
 /node_modules
 /.pnp
 .pnp.js
