@@ -2,8 +2,8 @@ import bannerHome from ".././assets/banner-home.png"
 import Meta from "../components/Meta/Meta"
 import Banner from ".././components/Banner/Banner"
 import Cards from ".././components/Cards/Cards"
-//import { useLocation } from "react-router-dom"
 import styles from "../styles/Home.module.css"
+//import { useLocation } from "react-router-dom"
 
 function Home() {
   const metaTitle = "Kasa : location d'appartements entre particuliers"
