@@ -40,19 +40,24 @@ function Carrousel(product) {
 
    return displayImg() ? (
       <div className={styles.slider}>
+         {slides.length !== 1 ? (
          <img
             className={`${styles.arrow} ${styles.leftArrow}`}
             src={ArrowLeft}
             alt="flèche vers la gauche"
             onClick={prevSlide}
          ></img>
+         ) : null}
 
+         {slides.length !== 1 ? (
          <img
             className={`${styles.arrow} ${styles.rightArrow}`}
             src={ArrowRight}
             alt="flèche vers la droite"
             onClick={nextSlide}
          ></img>
+         ) : null}
+
          {slides.map((slide, index) => {
             return (
                <div
