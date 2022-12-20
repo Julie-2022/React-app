@@ -13,7 +13,11 @@ export default function DropDown({ txt, title, txtArray }) {
         onClick={() => setIsOpen(false)}
       >
         <span>{title}</span>
-        <img src={ArrowTop} alt="flèche vers le haut" className={styles.arrow} />
+        <img
+          src={ArrowTop}
+          alt="flèche vers le haut"
+          className={styles.arrow}
+        />
       </button>
       {txtArray ? (
         <div className={styles.dropdownP}>
@@ -34,6 +38,5 @@ export default function DropDown({ txt, title, txtArray }) {
       <span>{title}</span>
       <img src={ArrowBack} alt="flèche vers le bas" className={styles.arrow} />
     </button>
-    
   )
 }
